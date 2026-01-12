@@ -1,0 +1,12 @@
+# Ignore the actual database file (your teammate will generate their own)
+*.db
+*.db-journal
+
+# Ignore the heavy dependency lock file and binaries
+go.sum
+*.exe
+bin/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
